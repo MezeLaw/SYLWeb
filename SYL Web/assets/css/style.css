@@ -2189,3 +2189,7 @@ footer .credits {
   /* margin-bottom: 20px; 
   */
 }
+
+.circle-img{
+  border-radius: 50%;
+}
