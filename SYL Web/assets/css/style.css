@@ -2165,7 +2165,8 @@ footer .credits {
 }
 
 .logoSize {
-  width: 150px;
-  height: 70px;
-  margin-bottom: 20px;
+  width: 45%;
+  height: auto;
+  /* margin-bottom: 20px; 
+  */
 }
