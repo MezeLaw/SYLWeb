@@ -36,12 +36,14 @@
 
 <body>
 
+  <!-- ======= Property Search Section ======= -->
+  <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
  
 
   <!-- ======= Header/Navbar ======= -->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
-
       <a class="navbar-brand logoSize" href="index">
         <img class="logoSize" src="assets/img/logo-syl.png" alt="SYL | Seguridad Ocupacional">
       </a>
@@ -51,7 +53,6 @@
         <span></span>
         <span></span>
       </button>
-      
       <!--<a class="navbar-brand text-brand" href="index">SYL<span class="color-b"> |</span></a> -->
       <!-- 
 
@@ -66,13 +67,13 @@
             <a class="nav-link " href="index">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="about">Nosotros</a>
+            <a class="nav-link active" href="nosotros">Nosotros</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="services" id="servicios" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Servicios</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="hse-service">Higiene y Seguridad</a>
+              <a class="dropdown-item" href="higiene-y-seguridad">Higiene y Seguridad</a>
               <a class="dropdown-item" href="proteccion-contra-incendios">Protección contra incendios</a>
               <a class="dropdown-item" href="evaluaciones-y-estudios">Evaluaciones y estudios</a>
               <a class="dropdown-item" href="programas-de-capacitacion">Programas de capacitación</a>
@@ -80,12 +81,9 @@
               <a class="dropdown-item" href="medioambiente">Medioambiente</a>
             </div>
           </li>
-   <!--
-            <li class="nav-item">
-            <a class="nav-link" href="blog-grid">Blog</a>
-          </li>
-   -->
-          <li class="nav-item dropdown">
+ 
+<!--
+            <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Información Útil
             </a>
@@ -96,8 +94,9 @@
               <a class="dropdown-item" href="agent-single">Agent Single</a>
             </div>
           </li>
+-->
           <li class="nav-item">
-            <a class="nav-link active" href="contact">Contacto</a>
+            <a class="nav-link" href="contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -119,8 +118,7 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">Contáctenos</h1>
-              <span class="color-text-a">Envíenos su consulta, lo contactaremos a la brevededad.<br> Confíe su seguridad en nuestras manos, nuestro profesionalismo es garantizado.</span>
+              <h1 class="title-single">Sobre nosotros</h1>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -130,7 +128,7 @@
                   <a href="index">Inicio</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Contacto
+                  Nosotros
                 </li>
               </ol>
             </nav>
@@ -139,144 +137,116 @@
       </div>
     </section><!-- End Intro Single-->
 
-    <!-- ======= Contact Single ======= -->
-    <section class="contact">
+    <!-- ======= About Section ======= -->
+    <section class="section-about">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-        
+         <!--
+            <div class="col-sm-12">
+            <div class="about-img-box">
+              <img src="assets/img/slide-about-1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="sinse-box">
+              <h3 class="sinse-title">EstateAgency
+                <span></span>
+                <br> Sinse 2017</h3>
+              <p>Art & Creative</p>
+            </div>
           </div>
-          <div class="col-sm-12 section-t8">
+         -->
+          <div class="col-md-12 section-t8">
             <div class="row">
-              <div class="col-md-7">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="row">
-                    <div class="col-md-6 mb-3">
-                      <div class="form-group">
-                        <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Su nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres">
-                        <div class="validate"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                      <div class="form-group">
-                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Su email" data-rule="email" data-msg="Por favor, ingrese un email válido">
-                        <div class="validate"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                      <div class="form-group">
-                        <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Asunto" data-rule="minlen:4" data-msg="El asunto debe contener al menos 8 caracteres">
-                        <div class="validate"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <textarea class="form-control" name="message" cols="45" rows="8" data-rule="required" data-msg="Por favor, complete este campo" placeholder="Su consulta"></textarea>
-                        <div class="validate"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                      <div class="mb-3">
-                        <div class="loading">cargando</div>
-                        
-
-                        
-                        <div class="error-message">Ocurrio un error al intentar enviar el formulario. Intentelo nuevamente. Tambien puede comunicarse vía telefonica. Lamentamos las molestias!</div>
-                        <div class="sent-message">Su consulta fue enviada correctamente. A la brevededad nos comunicaremos con usted. Staff de SYL</div>
-                       
-
-
-                      </div>
-                    </div>
-
-                    <div class="col-md-12 text-center">
-                      <button type="submit" name="enviar" class="btn btn-a">Enviar consulta</button>
-                    </div>
-                  </div>
-                </form>
+              <div class="col-md-6 col-lg-5">
+                <img src="assets/img/nosotros/teamwork-power-successful-business-meeting-workplace-concept.jpg" alt="" class="img-fluid circle-img">
               </div>
-              <div class="col-md-5 section-md-t3">
-                <div class="icon-box section-b2">
-                  <div class="icon-box-icon">
-                    <span class="ion-ios-paper-plane"></span>
-                  </div>
-                  <div class="icon-box-content table-cell">
-                    <div class="icon-box-title">
-                      <h4 class="icon-title">Envíenos su consulta</h4>
-                    </div>
-                    <div class="icon-box-content">
-                      <p class="mb-1">Email.
-                        <span class="color-a">info@syl.com.ar</span>
-                      </p>
-                      <p class="mb-1">Whatsapp.
-                        <span class="color-a">+54 356 945234</span>
-                      </p>
-                    </div>
-                  </div>
+              <div class="col-lg-2  d-none d-lg-block">
+                <div class="title-vertical d-flex justify-content-start">
+                  <span>Profesionalismo Transparencia</span>
                 </div>
-                <div class="icon-box section-b2">
-                  <div class="icon-box-icon">
-                    <span class="ion-ios-pin"></span>
-                  </div>
-                  <div class="icon-box-content table-cell">
-                    <div class="icon-box-title">
-                      <h4 class="icon-title">Encuentrenos en</h4>
-                    </div>
-                    <div class="icon-box-content">
-                      <p class="mb-1">
-                        Hurlingham, BA,
-                        <br> AR.
-                      </p>
-                    </div>
-                  </div>
+              </div>
+              <div class="col-md-6 col-lg-5 section-md-t3">
+                <div class="title-box-d">
+                  <h3 class="color-d">Quiénes
+                    <span class="title-d">somos</span> 
+                    </h3>
                 </div>
-                <div class="icon-box">
-                  <div class="icon-box-icon">
-                    <span class="ion-ios-redo"></span>
-                  </div>
-                  <div class="icon-box-content table-cell">
-                    <div class="icon-box-title">
-                      <h4 class="icon-title">Nuestras redes sociales</h4>
-                    </div>
-                    <div class="icon-box-content">
-                      <div class="socials-footer">
-                        <ul class="list-inline">
-                          <li class="list-inline-item">
-                            <a href="#" class="link-one">
-                              <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a href="#" class="link-one">
-                              <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a href="#" class="link-one">
-                              <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a href="#" class="link-one">
-                              <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a href="#" class="link-one">
-                              <i class="fa fa-dribbble" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <p class="color-text-a">
+                  Somos una empresa de asesoramiento profesional en higiene y seguridad dedicada a brindar un servicio integral de excelente calidad a empresas de distintos rubros.
+                  Ofrecemos un método de trabajo eficiente y transparente, capacitándonos continuamente para adecuarnos a la normativa legal vigente y a la evolución de los diferentes mercados, incentivados en proteger siempre la salud de los trabajadores.
+                   Nuestra principal actividad es prevenir accidentes y enfermedades laborales promoviendo el desarrollo personal y profesional. 
+                  
+                </p>
+      
               </div>
             </div>
           </div>
+
+          <div class="col-md-12 section-t8">
+            <div class="row">
+
+              <div class="col-lg-2  d-none d-lg-block">
+                <div class="title-vertical d-flex justify-content-start">
+                  <span> </span>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 section-md-t3">
+                <div class="title-box-d">
+                  <h3 class="color-d">Nuestra 
+                    <span class="title-d">misión</span> 
+                    </h3>
+                </div>
+                <p class="color-text-a">
+                  Ofrecer un servicio de alta calidad en  seguridad y salud ocupacional, adecuado a las necesidades de cada compañía, 
+                  brindando soluciones eficientes en materia de prevención de riesgos, 
+                  priorizando mejorar la calidad de cada trabajador.
+                </p>
+           
+              </div>
+
+              <div class="col-md-6 col-lg-5">
+                <img src="assets/img/nosotros/pieces-of-white-jigsaw-on-wood.jpg" alt="" class="img-fluid circle-img">
+              </div>
+         
+            </div>
+          </div>
+
+          
+          <div class="col-md-12 section-t8">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <img src="assets/img/nosotros/business-success-concept-on-wooden-table-top-view-hands-protecting-wooden-figures-of-people.jpg" alt="" class="img-fluid circle-img">
+              </div>
+              <div class="col-lg-2  d-none d-lg-block">
+                <div class="title-vertical d-flex justify-content-start">
+                  <span> </span>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 section-md-t3">
+                <div class="title-box-d">
+                  <h3 class="color-d">Nuestra 
+                    <span class="title-d">visión</span> 
+                    </h3>
+                </div>
+                <p class="color-text-a">
+                  Comprometidos en el cumplimiento de nuestra misión, buscamos posicionarnos como una empresa destacada en el mercado en materia de higiene, seguridad, 
+                  salud ocupacional y prevención de riesgos del trabajo, brindando un servicio de gran valor y profesionalismo a 
+                  nuestros clientes priorizando siempre la mejora continua, 
+                  logrando que la empresas aumenten su productividad de manera saludablemente responsable.
+                </p>
+ 
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
-    </section><!-- End Contact Single-->
+    </section>
+
+ 
+ 
+
+    <!-- End About Section-->
 
   </main><!-- End #main -->
 
@@ -298,14 +268,15 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> contact@example.com</li>
+                  <span class="color-text-a">Phone .</span> info@syl.com.ar</li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +54 356 945234</li>
+                  <span class="color-text-a">Email .</span> +54 11 7361-4392</li>
               </ul>
             </div>
           </div>
         </div>
- 
+      
+        
       </div>
     </div>
   </section>
@@ -319,16 +290,18 @@
                 <a href="index">Inicio</a>
               </li>
               <li class="list-inline-item">
-                <a href="about">Nosotros</a>
+                <a href="nosotros">Nosotros</a>
               </li>
               <li class="list-inline-item">
-                <a href="services">Servicios</a>
+                <a href="servicios">Servicios</a>
               </li>
-              <li class="list-inline-item">
+            <!--
+                <li class="list-inline-item">
                 <a href="util-info">Informacion útil</a>
               </li>
+            -->
               <li class="list-inline-item">
-                <a href="contact">Contacto</a>
+                <a href="contacto">Contacto</a>
               </li>
             </ul>
           </nav>
@@ -416,9 +389,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-
- 
-
+  
 
 </body>
 

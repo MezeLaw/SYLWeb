@@ -2225,9 +2225,14 @@ footer .credits {
 
 .logoSize {
   width: 45%;
-  height: auto;
-  /* margin-bottom: 20px; 
-  */
+  height: auto; 
+}
+
+@media (max-width: 768px) {
+  .logoSize {
+    width: 65%;
+    height: auto; 
+  }
 }
 
 .circle-img{
