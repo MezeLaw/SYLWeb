@@ -58,12 +58,15 @@
     $('.intro-content .intro-title').removeClass('animate__zoomIn animate__animated').hide();
     $('.intro-content .intro-price').removeClass('animate__fadeInUp animate__animated').hide();
     $('.intro-content .intro-title-top, .intro-content .spacial').removeClass('animate__fadeIn animate__animated').hide();
+    $('.slider-p').removeClass('animate__fadeIn animate__animated').hide();
+ 
   });
 
   $('.intro-carousel').on('translated.owl.carousel', function() {
     $('.intro-content .intro-title').addClass('animate__zoomIn animate__animated').show();
     $('.intro-content .intro-price').addClass('animate__fadeInUp animate__animated').show();
     $('.intro-content .intro-title-top, .intro-content .spacial').addClass('animate__fadeIn animate__animated').show();
+    $('.slider-p').addClass('animate__fadeIn animate__animated').show();
   });
 
   /*--/ Navbar Collapse /--*/

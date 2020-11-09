@@ -270,7 +270,7 @@ a:hover {
   display: table-cell;
   vertical-align: top;
   font-size: 36px;
-  color: #000000;
+  color: #63B051;
   width: 50px;
   padding-top: 8px;
 }
@@ -640,7 +640,7 @@ a:hover {
 }
 
 .btn.btn-a {
-  background-color: #000000;
+  background-color: #63B051;
   color: #ffffff;
 }
 
@@ -1878,6 +1878,13 @@ a:hover {
   margin-right: 1.5rem;
 }
 
+/*
+.socials-footer a {
+  color: #63B051;
+}
+
+
+*/
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -2237,6 +2244,11 @@ footer .credits {
 }
 
 .logoSize {
+  width: 55%;
+  height: auto; 
+}
+
+.mini-logo {
   width: 45%;
   height: auto; 
 }
@@ -2254,4 +2266,13 @@ footer .credits {
 
 .syl-color {
   color:  #63B051;
+}
+
+.nos-words {
+  color: #63B051;
+}
+
+.slider-p {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s; 
 }
