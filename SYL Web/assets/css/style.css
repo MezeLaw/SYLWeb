@@ -2268,11 +2268,27 @@ footer .credits {
   color:  #63B051;
 }
 
-.nos-words {
+.syl-words {
   color: #63B051;
 }
 
 .slider-p {
   -webkit-animation-delay: .6s;
   animation-delay: .6s; 
+}
+
+p {
+  text-align: justify !important;
+}
+
+span {
+  text-align: justify !important;
+}
+
+#servicios{
+  display:inline-block;margin-right:10px;
+}
+
+#servicios-drodown {
+  display:inline-block;
 }
