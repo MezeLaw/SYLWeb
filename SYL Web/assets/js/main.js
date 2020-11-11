@@ -79,7 +79,9 @@
   });
 
   /*--/ Navbar Menu Reduce /--*/
-  $(window).trigger('scroll');
+
+  /**
+   *   $(window).trigger('scroll');
   $(window).bind('scroll', function() {
     var pixels = 50;
     var top = 1200;
@@ -96,6 +98,7 @@
       $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
     }
   });
+   */
 
   /*--/ Property owl /--*/
   $('#property-carousel').owlCarousel({

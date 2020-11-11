@@ -2244,7 +2244,7 @@ footer .credits {
 }
 
 .logoSize {
-  width: 55%;
+  width: 50%;
   height: auto; 
 }
 
@@ -2291,4 +2291,10 @@ span {
 
 #servicios-dropdown {
   display:inline-block;
+}
+
+
+.navbar {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
