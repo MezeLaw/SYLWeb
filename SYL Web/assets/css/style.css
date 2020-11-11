@@ -2312,3 +2312,17 @@ footer {
 .syl-copyright{
   text-align: center !important;
 }
+
+.argo-logo{
+width: 60% !important;
+height: auto !important;
+}
+
+.argo-mini-logo {
+  width: 100% !important;
+  height: auto !important;
+}
+
+strong {
+  text-align: justify !important;
+}
