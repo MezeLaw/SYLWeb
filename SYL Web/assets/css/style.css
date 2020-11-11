@@ -2298,3 +2298,17 @@ span {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
+footer {
+  padding-top:12px;
+  padding-bottom: 18px;
+}
+
+.section-footer {
+  padding-top:7px;
+  padding-bottom: 1px;
+}
+
+.syl-copyright{
+  text-align: center !important;
+}
