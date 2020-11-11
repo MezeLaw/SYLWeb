@@ -2295,8 +2295,8 @@ span {
 
 
 .navbar {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
 }
 
 footer {
