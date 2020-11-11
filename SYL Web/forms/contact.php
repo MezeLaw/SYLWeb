@@ -2,7 +2,7 @@
  
 
 //$remitente = "mezequielabogado@gmail.com";
-$destinatario = "info@enviofacil.com.ar";
+$destinatario = "info@syl.com.ar";
  
 //$mensaje = "Tienes un mensaje desde el formulario de tu sitio web";
 
