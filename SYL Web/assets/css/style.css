@@ -1079,8 +1079,9 @@ a:hover {
 .intro .intro-body .price-a {
   color: #ffffff;
   padding: 1rem 1.5rem;
+ /*
   border: 2px solid #CBD400;
-  border-radius: 50px;
+  border-radius: 5px;*/
   text-transform: uppercase;
   letter-spacing: 0.030em;
 }
@@ -1401,8 +1402,10 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: .6rem .8rem;
+ /*
   border: 2px solid #CBD400;
-  border-radius: 50px;
+  border-radius: 5px;
+ */
   text-transform: uppercase;
   letter-spacing: 0.030em;
 }
