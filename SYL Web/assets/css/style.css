@@ -2247,7 +2247,7 @@ footer .credits {
 }
 
 .logoSize {
-  width: 50%;
+  width: 55%;
   height: auto; 
 }
 
@@ -2258,7 +2258,7 @@ footer .credits {
 
 @media (max-width: 768px) {
   .logoSize {
-    width: 65%;
+    width: 70%;
     height: auto; 
   }
 }
