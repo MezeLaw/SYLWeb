@@ -2329,3 +2329,41 @@ height: auto !important;
 strong {
   text-align: justify !important;
 }
+
+@font-face {
+  font-family: GTWalsheimProLight;
+  src: url(../fonts/GTWalsheimPro-Light.ttf);
+}
+
+@font-face {
+  font-family: GTWalsheimProRegular;
+  src: url(../fonts/GTWalsheimPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: GTWalsheimProBold;
+  src: url(../fonts/GTWalsheimPro-Bold.ttf);
+}
+
+h1  {
+  font-family: GTWalsheimProBold !important; 
+}
+
+h2  {
+  font-family: GTWalsheimProRegular !important;
+}
+
+h3 {
+  font-family: GTWalsheimProRegular !important;
+}
+
+h4 {
+  font-family: GTWalsheimProRegular !important;
+}
+p{
+  font-family: GTWalsheimProLight !important;
+}
+
+span {
+  font-family: GTWalsheimProRegular;
+}
