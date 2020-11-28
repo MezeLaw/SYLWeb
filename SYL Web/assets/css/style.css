@@ -2331,39 +2331,39 @@ strong {
 }
 
 @font-face {
-  font-family: GTWalsheimProLight;
-  src: url(../fonts/GTWalsheimPro-Light.ttf);
+  font-family: PoppinsLight;
+  src: url(../fonts/Poppins-Light.ttf);
 }
 
 @font-face {
-  font-family: GTWalsheimProRegular;
-  src: url(../fonts/GTWalsheimPro-Regular.ttf);
+  font-family: PoppinsRegular;
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-  font-family: GTWalsheimProBold;
-  src: url(../fonts/GTWalsheimPro-Bold.ttf);
+  font-family: PoppinsBold;
+  src: url(../fonts/Poppins-Bold.ttf);
 }
 
 h1  {
-  font-family: GTWalsheimProBold !important; 
+  font-family: PoppinsBold !important; 
 }
 
 h2  {
-  font-family: GTWalsheimProRegular !important;
+  font-family: PoppinsRegular !important;
 }
 
 h3 {
-  font-family: GTWalsheimProRegular !important;
+  font-family: PoppinsRegular !important;
 }
 
 h4 {
-  font-family: GTWalsheimProRegular !important;
+  font-family: PoppinsLight !important;
 }
 p{
-  font-family: GTWalsheimProLight !important;
+  font-family: PoppinsLight !important;
 }
 
 span {
-  font-family: GTWalsheimProRegular;
+  font-family: PoppinsRegular;
 }
