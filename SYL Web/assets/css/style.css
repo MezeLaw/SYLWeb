@@ -2278,6 +2278,8 @@ footer .credits {
 .slider-p {
   -webkit-animation-delay: .6s;
   animation-delay: .6s; 
+  font-size: 1.2rem;
+  text-align: left !important;
 }
 
 p {
