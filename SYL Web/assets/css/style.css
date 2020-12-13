@@ -144,7 +144,9 @@ a:hover {
 }
 */
 
-
+.color-white{
+  color: white;
+}
 
 
 .color-d {
@@ -2136,7 +2138,7 @@ a:hover {
 .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #CBD400;
   text-align: justify;
   padding: 15px;
   font-weight: 600;
@@ -2247,7 +2249,7 @@ footer .credits {
 }
 
 .logoSize {
-  width: 55%;
+  width: 50%;
   height: auto; 
 }
 

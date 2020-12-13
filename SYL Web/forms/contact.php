@@ -2,8 +2,8 @@
  
 
 //$remitente = "mezequielabogado@gmail.com";
-//$destinatario = "info@syl.com.ar";
-$destinatario = "info@enviofacil.com.ar"; 
+$destinatario = "info@syl.com.ar";
+//$destinatario = "info@enviofacil.com.ar"; 
 
 $name= $_POST['name'];
 $email= $_POST['email'];
